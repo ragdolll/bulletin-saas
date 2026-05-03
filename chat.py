@@ -9,7 +9,7 @@ from db import init_db
 from tools import TOOL_DISPATCH, TOOL_SCHEMAS
 
 
-MODEL = "claude-opus-4-7"
+MODEL = "claude-sonnet-4-6"
 MAX_TOKENS = 2048
 MAX_TURNS = 10  # Safety cap per user message; tool loops shouldn't need this many.
 
