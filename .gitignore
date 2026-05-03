@@ -4,3 +4,4 @@ __pycache__/
 .env
 family.db
 .DS_Store
+.claude/settings.local.json
